@@ -28,6 +28,7 @@ thunar-archive-plugin file-roller btop pacman-contrib
 network-manager-applet ttf-jetbrains-mono-nerd 
 noto-fonts-emoji lxappearance xfce4-settings swaybg 
 dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
+gcc12 waybar-hyprland
 ```
 Nvidia additional packages (they will be installed in script)
 ```
