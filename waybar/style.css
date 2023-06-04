@@ -17,7 +17,7 @@ tooltip {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: #11111b;
+    border-color: #181825;
 }
 
 #workspaces button {
@@ -107,7 +107,7 @@ tooltip {
 
 #clock {
     color: #fab387;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     margin-left: 10px;
     border-right: 0px;
 }

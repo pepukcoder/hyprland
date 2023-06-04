@@ -100,11 +100,11 @@
     "network": {
         // "interface": "wlan0", // (Optional) To force the use of this interface
         "format-wifi": " {signalStrength}%",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{essid} - {ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format": "{essid}",
+        "format-linked": "{ifname} (No IP)",
         "format-disconnected": "⚠ ",
-        "format-alt": "{ifname}:{essid} {ipaddr}/{cidr}"
+        "format-alt": "{ifname}:{essid} {ipaddr}"
     },
 
     "bluetooth": {
