@@ -1,5 +1,5 @@
 # Installation
-install yay
+install yay \
 clone this repo
 ```
 sudo git clone https://https://github.com/pepukcoder/hyprland.git
