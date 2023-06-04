@@ -28,7 +28,7 @@ swappy grim slurp pamixer brightnessctl gvfs
 bluez bluez-utils lxappearance xfce4-settings
 dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
 ```
-Nvidia additional packages (they wiil be installed in script)
+Nvidia additional packages (they will be installed in script)
 ```
 linux-headers nvidia-dkms qt5-wayland qt5ct libva libva-nvidia-driver-git
 ```
