@@ -13,38 +13,38 @@ window#waybar {
 }
 
 tooltip {
-    background: #1e1e2e;
+    background: #292219;
     border-radius: 10px;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
-    border-color: #181825;
+    border-color: #1a1510;
 }
 
 #workspaces button {
     padding: 5px;
-    color: #313244;
+    color: #8b5e37;
     margin-right: 5px;
 }
 
 #workspaces button.active {
-    color: #a6adc8;
+    color: #edd4a8;
 }
 
 #workspaces button.focused {
-    color: #a6adc8;
+    color: #edd4a8;
     background: #eba0ac;
     border-radius: 10px;
 }
 
 #workspaces button.urgent {
-    color: #11111b;
+    color: #8b5e37;
     background: #a6e3a1;
     border-radius: 10px;
 }
 
 #workspaces button:hover {
-    background: #11111b;
-    color: #cdd6f4;
+    background: #1a1510;
+    color: #edd4a8;
     border-radius: 10px;
 }
 
@@ -60,12 +60,12 @@ tooltip {
 #workspaces,
 #tray,
 #backlight {
-    background: #1e1e2e;
+    background: #292219;
     opacity: 0.8;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 10px;
-    border: 1px solid #181825;
+    border: 1px solid #1a1510;
 }
 
 #temperature {
@@ -86,7 +86,7 @@ tooltip {
 }
 
 #workspaces {
-    background: #1e1e2e;
+    background: #292219;
     border-radius: 10px;
     margin-left: 10px;
     padding-right: 0px;
@@ -100,28 +100,29 @@ tooltip {
 }
 
 #window {
+    color: #edd4a8;
     border-radius: 10px;
     margin-left: 60px;
     margin-right: 60px;
 }
 
 #clock {
-    color: #fab387;
+    color: #edd4a8;
     border-radius: 10px;
     margin-left: 10px;
     border-right: 0px;
 }
 
 #network {
-    color: #f9e2af;
+    color: #edd4a8;
     border-radius: 10px 0px 0px 10px;
-    border-left: 0px;
     border-right: 0px;
 }
 
 #bluetooth {
     color: #89b4fa;
     border-radius: 0px 0px 0px 0px;
+    border-left: 0px;
 } 
 
 #pulseaudio {

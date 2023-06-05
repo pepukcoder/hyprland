@@ -41,7 +41,7 @@
 	"format-alt": "{: %d-%m-%Y}",
 	"tooltip-format": "<span font='JetBrains Nerd Font Mono 10'><big>{:%d %B}</big>\n<tt><small>{calendar}</small></tt></span>",
         "today-format": "<span color='#ff6699'><b><u>{}</u></b></span>",
-        "format-calendar": "<span color='#ecc6d9'><b>{}</b></span>",
+        "format-calendar": "<span color='#edd4a8'><b>{}</b></span>",
         "on-scroll": {
                     "calendar": 1
                      }
