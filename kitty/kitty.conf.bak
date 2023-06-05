@@ -14,6 +14,6 @@ background_opacity 0.95
 
 
 # BEGIN_KITTY_THEME
-# Wombat
+# duckbones
 include current-theme.conf
 # END_KITTY_THEME
