@@ -115,5 +115,13 @@
 	    "tooltip-format": "{device_alias}",
 	    "tooltip-format-connected": " {device_enumerate}",
 	    "tooltip-format-enumerate-connected": "{device_alias}"
-    }
+    },
+    
+    "custom-network": {
+        // "interface": "wlan0", // (Optional) To force the use of this interface
+        "format": " {}",
+        "interval": 3600,
+        "exec": "python ~/.config/waybar/scripts/speedtest.py",
+        "return-type": "json"
+    },
 }
