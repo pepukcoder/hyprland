@@ -1,0 +1,25 @@
+#inner-box {
+  margin: 10px;
+}
+
+#text {
+  margin-left: 1em;
+}
+
+#entry:selected {
+  background-color: aaaaaa;
+  color: #aaaaaa;
+}
+
+#input { 
+  margin: 10px;
+  border: 2px solid #fd5789;
+  border-radius: 8px;
+}
+
+window {
+  border: 2px solid #fd5789;
+  color: @ffffff;
+  border-radius: 10px;
+  background-color: rgba(43, 23, 45, 0.9);
+}
