@@ -115,7 +115,7 @@
     },
 
     "memory": {
-        "interval": 5,
+        "interval": 3,
         "format": " {}%",
         "format-alt":" {used:0.1f}G",
         "max-length": 10
