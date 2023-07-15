@@ -4,6 +4,7 @@
 yay -S --noconfirm hyprland kitty waybar \
 swaybg swaylock-effects wofi wlogout mako thunar \
 ttf-jetbrains-mono-nerd noto-fonts-emoji \
+ttf-font-awesome \
 polkit-gnome python-requests starship \
 swappy grim slurp pamixer brightnessctl gvfs \
 bluez bluez-utils lxappearance xfce4-settings \
@@ -20,26 +21,18 @@ yay -R --noconfirm xdg-desktop-portal-gnome xdg-desktop-portal-gtk
 
 ### Copy Config Files ###
 echo -e "Copying config files...\n"
+
 cp -R hypr ~/.config/
 cp -R kitty ~/.config/
 cp -R mako ~/.config/
 cp -R waybar ~/.config/
 cp -R swaylock ~/.config/
 cp -R wofi ~/.config/
+cp -R wlogout ~/.config/
     
 # Set some files as exacutable 
 chmod +x ~/.config/hypr/xdg-portal-hyprland
 chmod +x ~/.config/waybar/scripts/waybar-wttr.py
-
-### Install teh starship shell ###
-read -n1 -rep 'Would you like to install the starship shell? (y,n)' STAR
-if [[ $STAR == "Y" || $STAR == "y" ]]; then
-    # install the starship shell
-    echo -e "Updating .bashrc...\n"
-    echo -e '\neval "$(starship init bash)"' >> ~/.bashrc
-    echo -e "copying starship config file to ~/.confg ...\n"
-    cp starship.toml ~/.config/
-fi
 
 ### Script is done ###
 echo -e "Script had completed.\n"
