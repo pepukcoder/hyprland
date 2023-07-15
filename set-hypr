@@ -4,16 +4,16 @@
 yay -S --noconfirm hyprland kitty waybar \
 swaybg swaylock-effects wofi wlogout mako thunar \
 ttf-jetbrains-mono-nerd noto-fonts-emoji \
-ttf-font-awesome \
+ttf-font-awesome pulseaudio pavucontrol alsa-utils\
 polkit-gnome python-requests starship \
 swappy grim slurp pamixer brightnessctl gvfs \
 bluez bluez-utils lxappearance xfce4-settings \
-dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
+dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git \
+btop neofetch
 
 # Start the bluetooth service
 echo -e "Starting the Bluetooth Service...\n"
 sudo systemctl enable --now bluetooth.service
-sleep 2
 
 # Clean out other portals
 echo -e "Cleaning out conflicting xdg portals...\n"
