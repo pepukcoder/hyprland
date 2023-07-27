@@ -10,7 +10,7 @@ alsa-utils polkit-gnome python-requests \
 swappy grim slurp pamixer brightnessctl gvfs \
 bluez bluez-utils lxappearance xfce4-settings \
 dracula-icons-git xdg-desktop-portal-hyprland-git \
-btop neofetch
+btop neofetch ranger python-pillow
 
 # Start the bluetooth service
 echo -e "Starting the Bluetooth Service...\n"
@@ -23,10 +23,12 @@ yay -R --noconfirm xdg-desktop-portal-gnome xdg-desktop-portal-gtk
 ### Copy Config Files ###
 echo -e "Copying config files...\n"
 
-cp -R hypr ~/.config/
+cp -R ranger ~/.config/
 cp -R kitty ~/.config/
 cp -R cava ~/.config/
 cp -R neofetch ~/.config/
+
+cp -R hypr ~/.config/
 cp -R waybar ~/.config/
 cp -R swaylock ~/.config/
 cp -R wofi ~/.config/
