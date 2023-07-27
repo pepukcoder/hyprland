@@ -5,10 +5,10 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 20,
-    "modules-left": ["cpu","memory","battery"],
+    "height": 1,
+    "modules-left": ["battery","cpu","memory"],
     "modules-center": ["wlr/workspaces"],
-    "modules-right": ["network", "bluetooth","backlight","pulseaudio#microphone","pulseaudio","clock"],
+    "modules-right": ["network","bluetooth","pulseaudio#microphone","pulseaudio","clock"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -39,14 +39,15 @@
     "clock": {
         "format": "{: %H:%M}",
 	"format-alt": "{: %d.%m.%Y}",
-	"tooltip-format": "<span font='JetBrains Nerd Font Mono 10'><big>{:%d %B}</big>\n<tt><small>{calendar}</small></tt></span>"
+	"tooltip-format": "<span font='Jetbrains Nerd Font Mono 10'><big>{:%d %B}</big>\n<tt><small>{calendar}</small></tt></span>"
     },
 
     "backlight": {
         "device": "intel_backlight",
-        "format": " {percent}%",
+        "format": " {}%",
         "on-scroll-up": "brightnessctl set 1%+",
-        "on-scroll-down": "brightnessctl set 1%-"
+        "on-scroll-down": "brightnessctl set 1%-",
+	"tooltip": false
     },
 
     "battery": {
@@ -59,6 +60,7 @@
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{icon} {time}",
+	"tooltip": false,
         "format-icons": ["", "", "", "", ""]
     },
 
@@ -90,9 +92,8 @@
     },
 
     "network": {
-        // "interface": "wlan0",
         "format-wifi": " {signalStrength}%",
-        "tooltip-format": " {essid}",
+        "tooltip-format": "{essid}",
         "format-linked": "{ifname}",
         "format-disconnected": "⚠ ",
 	"interval": 5,
@@ -111,7 +112,7 @@
     "cpu": {
       "interval": 1,
       "format": " {usage}%",
-      "max-length": 100
+      "max-length": 10
     },
 
     "memory": {

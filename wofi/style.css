@@ -1,11 +1,14 @@
 #inner-box {
   margin: 10px;
+  margin-top: 0px;
 }
 
 #input { 
   margin: 10px;
-  border: 2px solid #fd5789;
-  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0px solid #b1c8c2;
+  border-radius: 10px;
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.5)
 }
@@ -15,14 +18,14 @@
 }
 
 #entry:selected {
-  background-color: #fd5789;
+  background-color: #434343;
+  color: #434343;
   border-radius: 10px;
-  color: #fd5789;
 }
 
 window {
-  border: 2px solid #fd5789;
+  border: 2px solid #b1c8c2;
   color: #ffffff;
   border-radius: 10px;
-  background-color: rgb(43, 23, 45);
+  background-color: #292929;
 }

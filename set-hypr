@@ -1,14 +1,15 @@
 #!/bin/bash
 
 ### Install all of the above pacakges ####
+echo -e "Installing packages...\n"
 yay -S --noconfirm hyprland kitty waybar \
-swaybg swaylock-effects wofi wlogout mako thunar \
+swaybg swaylock-effects wofi wlogout thunar \
 ttf-jetbrains-mono-nerd noto-fonts-emoji \
-ttf-font-awesome pulseaudio pavucontrol alsa-utils\
-polkit-gnome python-requests starship \
+ttf-font-awesome pulseaudio pavucontrol \
+alsa-utils polkit-gnome python-requests \
 swappy grim slurp pamixer brightnessctl gvfs \
 bluez bluez-utils lxappearance xfce4-settings \
-dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git \
+dracula-icons-git xdg-desktop-portal-hyprland-git \
 btop neofetch
 
 # Start the bluetooth service
@@ -24,7 +25,8 @@ echo -e "Copying config files...\n"
 
 cp -R hypr ~/.config/
 cp -R kitty ~/.config/
-cp -R mako ~/.config/
+cp -R cava ~/.config/
+cp -R neofetch ~/.config/
 cp -R waybar ~/.config/
 cp -R swaylock ~/.config/
 cp -R wofi ~/.config/
@@ -36,7 +38,7 @@ chmod +x ~/.config/waybar/scripts/waybar-wttr.py
 
 ### Script is done ###
 echo -e "Script had completed.\n"
-echo -e "You can start Hyprland by typing Hyprland (note the capital H).\n"
+
 read -n1 -rep 'Would you like to start Hyprland now? (y,n)' HYP
 if [[ $HYP == "Y" || $HYP == "y" ]]; then
     exec Hyprland
