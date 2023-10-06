@@ -3,7 +3,7 @@
 allow_images=true
 allow_markup=true
 show=drun
-prompt=What do you want to run?
+prompt=Search for application
 term=kitty
 insensitive=true
 hide_scroll=true
