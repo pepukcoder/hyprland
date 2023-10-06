@@ -7,13 +7,13 @@
     "gtk-layer-shell": true,
     "height": 1,
     "modules-left": ["battery","cpu","memory"],
-    "modules-center": ["wlr/workspaces"],
+    "modules-center": ["hyprland/workspaces"],
     "modules-right": ["network","bluetooth","pulseaudio#microphone","pulseaudio","clock"],
     "hyprland/window": {
         "format": "{}"
     },
 
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
