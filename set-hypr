@@ -40,10 +40,3 @@ chmod +x ~/.config/waybar/scripts/waybar-wttr.py
 
 ### Script is done ###
 echo -e "Script had completed.\n"
-
-read -n1 -rep 'Would you like to start Hyprland now? (y,n)' HYP
-if [[ $HYP == "Y" || $HYP == "y" ]]; then
-    exec Hyprland
-else
-    exit
-fi
