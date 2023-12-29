@@ -21,7 +21,7 @@ run script
 Packages that will be installed
 ```
 hyprland kitty waybar
-swaybg swaylock-effects wofi wlogout thunar
+swaybg wofi wlogout thunar
 ttf-jetbrains-mono-nerd noto-fonts-emoji
 ttf-font-awesome pulseaudio pavucontrol
 alsa-utils polkit-gnome python-requests
