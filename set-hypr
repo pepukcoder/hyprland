@@ -3,7 +3,7 @@
 ### Install all of the above pacakges ####
 echo -e "Installing packages...\n"
 yay -S --noconfirm hyprland kitty waybar \
-swaybg swaylock-effects wofi wlogout thunar \
+swaybg wofi wlogout thunar \
 ttf-jetbrains-mono-nerd noto-fonts-emoji \
 ttf-font-awesome pulseaudio pavucontrol \
 alsa-utils polkit-gnome python-requests \
@@ -30,7 +30,6 @@ cp -R neofetch ~/.config/
 
 cp -R hypr ~/.config/
 cp -R waybar ~/.config/
-cp -R swaylock ~/.config/
 cp -R wofi ~/.config/
 cp -R wlogout ~/.config/
     
